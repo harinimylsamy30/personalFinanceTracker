@@ -1,32 +1,34 @@
 # Personal Finance Tracker
 
-A full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack for managing personal finances effectively.
+A full-stack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack to help users manage their personal finances efficiently.
 
-This application allows users to track their income and expenses, categorize transactions, set savings goals, view analytics through dashboards, and export data in CSV format.
+This project allows users to track income and expenses, categorize transactions, set savings goals, visualize analytics through dashboards, and export data as CSV files.
 
 ---
 
 ## Project Overview
 
-The Personal Finance Tracker helps users to:
+### Features
+- Income and Expense Tracking
+- Category-wise Financial Analysis
+- Savings Goal Tracker
+- User Authentication & Authorization
+- Dashboard Analytics with Charts
+- Export Data to CSV
 
-- Track daily income and expenses  
-- Analyze spending through category-wise reports  
-- Set and monitor savings goals  
-- Visualize financial data using charts and dashboards  
-- Export transaction history as CSV for offline use  
-- Secure authentication for user accounts  
+Upcoming Feature:
+- Integration with Stock Market Investment APIs
 
 ---
 
 ## Tech Stack
 
-- Frontend : React.js  
-- Backend : Node.js, Express.js  
-- Database : MongoDB  
-- Authentication : JWT (JSON Web Tokens)  
-- Charts & Visualization : Chart.js  
-- CSV Export : csv-writer library  
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT (JSON Web Tokens)
+- Data Visualization: Chart.js
+- CSV Export: csv-writer Library
 
 ---
 
@@ -37,3 +39,70 @@ The Personal Finance Tracker helps users to:
 ```bash
 git clone https://github.com/<your-github-username>/personal-finance-tracker.git
 cd personal-finance-tracker
+```
+
+---
+
+### 2. Backend Setup
+
+Navigate to the server directory:
+
+```bash
+cd server
+npm install
+```
+
+Create a `.env` file in the `server` directory and add:
+
+```
+MONGO_URI=<your-mongodb-connection-string>
+JWT_SECRET=<your-jwt-secret-key>
+```
+
+Start the backend server:
+
+```bash
+npm run dev
+```
+
+The backend will run on:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 3. Frontend Setup
+
+Navigate to the client directory:
+
+```bash
+cd client
+npm install
+```
+
+Start the frontend:
+
+```bash
+npm start
+```
+
+The frontend will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## Developed By
+
+### Harini Mylsamy
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
