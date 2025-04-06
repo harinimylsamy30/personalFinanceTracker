@@ -23,7 +23,7 @@ Upcoming Feature:
 
 ## Tech Stack
 
-- Frontend: React.js
+- Frontend: React.js, Material UI
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Authentication: JWT (JSON Web Tokens)
