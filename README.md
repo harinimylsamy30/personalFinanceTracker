@@ -37,7 +37,7 @@ Upcoming Feature:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-github-username>/personal-finance-tracker.git
+git clone https://github.com/harinimylsamy30/personalFinanceTracker.git
 cd personal-finance-tracker
 ```
 
